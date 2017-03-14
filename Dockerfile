@@ -2,16 +2,14 @@
 #
 # Starting the container:
 #
-# docker run --rm -p 9090:9090 bwv988/docker-zeppelin
+# docker run --rm -p 9090:9090 hal433/docker-zeppelin
 #
 # Debugging:
 #
-# docker run --rm -it --entrypoint=bash bwv988/docker-zeppelin
+# docker run --rm -it --entrypoint=bash hal433/docker-zeppelin
 #
 
-FROM bwv988/ds-spark-base
-
-MAINTAINER ralph.schlosser@gmail.com
+FROM hal433/ds-spark-base
 
 # Configure versions and other settings.
 ENV MAVEN_VERSION            3.3.9
