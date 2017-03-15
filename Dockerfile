@@ -13,7 +13,7 @@ FROM hal433/ds-spark-base
 
 # Configure versions and other settings.
 ENV MAVEN_VERSION            3.3.9
-ENV ZEPPELIN_VERSION         0.6.1
+ENV ZEPPELIN_VERSION         0.7.0
 ENV ZEPPELIN_HOME            /opt/zeppelin
 ENV ZEPPELIN_CONF_DIR        $ZEPPELIN_HOME/conf
 ENV ZEPPELIN_NOTEBOOK_DIR    $ZEPPELIN_HOME/notebook
